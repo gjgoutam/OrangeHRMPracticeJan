@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [BaseTestExecutionEx]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="com.orangeHRM.qa.Listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Home page test(failed)" verbose="10">
+    <classes>
+      <class name="com.orangeHRM.qa.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="titleTest"/>
+          <include name="tearDown"/>
+          <include name="beforeClassSetup"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Home page test(failed) -->
+  <test thread-count="2" parallel="tests" name="Jobtitles page test(failed)" verbose="10">
+    <classes>
+      <class name="com.orangeHRM.qa.tests.JobTitlesPageTest">
+        <methods>
+          <include name="addJobTitleTest" invocation-numbers="1 2"/>
+          <include name="setUp"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.tests.JobTitlesPageTest -->
+    </classes>
+  </test> <!-- Jobtitles page test(failed) -->
+</suite> <!-- Failed suite [BaseTestExecutionEx] -->

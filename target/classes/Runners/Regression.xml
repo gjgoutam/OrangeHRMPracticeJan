@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BaseTestExecutionEx" verbose="10" thread-count='2' parallel='tests'>
+	<listeners>
+		<listener class-name="com.orangeHRM.qa.Listeners.ExtentReportListener"/>
+	</listeners>
+
+	<test name="Login page test">
+		<classes>
+			<class name="com.orangeHRM.qa.tests.HomePageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Home page test">
+		<classes>
+			<class name="com.orangeHRM.qa.tests.LoginPageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Jobtitles page test">
+		<classes>
+			<class name="com.orangeHRM.qa.tests.JobTitlesPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
