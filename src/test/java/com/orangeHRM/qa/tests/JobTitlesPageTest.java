@@ -25,7 +25,6 @@ public class JobTitlesPageTest extends BaseTest {
 	@Test
 	public void jobPageTitleTest() {
 		Assert.assertEquals(jp.verifyPgHeader(), true);
-		
 	}
 	
 	@DataProvider
@@ -36,7 +35,8 @@ public class JobTitlesPageTest extends BaseTest {
 	
 	@Test(enabled = true, dataProvider ="getDataForJobTitle")
 	public void addJobTitleTest(String JobTitle, String JobDescription, String FilePath, String Notes){
-		jp.VerifyAddUser(JobTitle,JobDescription,FilePath,Notes);
+		jp.AddUser(JobTitle,JobDescription,FilePath,Notes);
+		Assert.assertEquals(jp.VerifyUserJbTitle(JobTitle), true);	
 	}
 	
 	@Test

@@ -1,5 +1,8 @@
 package com.orangeHRM.qa.Utils;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,9 +21,20 @@ public class ElementUtil {
 		return driver.findElement(locator);
 	}
 
+	private ArrayList<WebElement> getElements(By locator) {
+		List<WebElement> eleList = driver.findElements(locator);
+		ArrayList<WebElement> arrEleList = new ArrayList<WebElement>(eleList);
+		return arrEleList;
+	}
+
 	private void WaitForElement(By locator) {
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, 15);
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+	}
+
+	private void WaitForString(By locator, String text) {
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.textToBePresentInElementLocated(locator, text));
 	}
 
 	public String getPgTitle() {
@@ -57,5 +71,24 @@ public class ElementUtil {
 			System.out.println(e);
 			return null;
 		}
+	}
+
+	public boolean verifyTitleInTable(By locator, String JbTitle) {
+		try {
+			WaitForString(locator, JbTitle);
+		} catch (Exception e) {
+			System.out.println("Element not present");
+		}
+
+		ArrayList<WebElement> eleList = new ArrayList<WebElement>();
+		eleList = getElements(locator);
+		for (int i = 0; i < eleList.size(); i++) {
+			String txt = eleList.get(i).getText();
+			if (txt.equalsIgnoreCase(JbTitle)) {
+				return true;
+			}
+
+		}
+		return false;
 	}
 }

@@ -25,6 +25,9 @@ public class JobTitlesPage extends BasePage {
 	By addJobSpecFile = By.id("jobSpecification");
 	By addNotes = By.id("note");
 	By SaveBtn = By.xpath("//a[@form-name='jobTitlesModalForm']");
+
+	// Job titles table locators
+	By JobTitleColumn = By.xpath("//td[2]//span");
 	
 	By Pagination = By.className("page-size");
 
@@ -38,7 +41,7 @@ public class JobTitlesPage extends BasePage {
 		return eUtil.PresenceOfElements(pgTitle);
 	}
 
-	public void VerifyAddUser(String JobTitle, String JobDescription, String FilePath, String Notes) {
+	public void AddUser(String JobTitle, String JobDescription, String FilePath, String Notes) {
 			eUtil.PresenceOfElements(addJobTitleBtn);
 			eUtil.enterClick(addJobTitleBtn);
 			eUtil.PresenceOfElements(addJobTitle);
@@ -49,9 +52,8 @@ public class JobTitlesPage extends BasePage {
 			eUtil.enterClick(SaveBtn);
 		}
 
-	public void VerifyUserAdded() {
-		js.jsScrollDown(Pagination);
-		
+	public boolean VerifyUserJbTitle(String JobTitle) {
+		return eUtil.verifyTitleInTable(JobTitleColumn, JobTitle);
 		
 	}
 }
