@@ -2,6 +2,7 @@ package com.orangeHRM.qa.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -91,4 +92,15 @@ public class ElementUtil {
 		}
 		return false;
 	}
+	public void getWindowHandlesPrimary(int WindowHandleNum) {
+		Set<String> handles = driver.getWindowHandles();
+		ArrayList<String> handlesList = new ArrayList<String>(handles);
+		try {
+		driver.switchTo().window(handlesList.get(WindowHandleNum));
+		}catch(Exception e) {
+			e.printStackTrace();
+			System.out.println("No such window exists");
+		}
+	}
+
 }
