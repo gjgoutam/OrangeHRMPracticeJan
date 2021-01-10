@@ -39,19 +39,4 @@ public class JobTitlesPageTest extends BaseTest {
 		Assert.assertEquals(jp.VerifyUserJbTitle(JobTitle), true);	
 	}
 	
-	@Test
-	public void Scrolldown() {
-		try {
-			Thread.sleep(10000);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-		try {
-			Thread.sleep(10000);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-	}
 }
