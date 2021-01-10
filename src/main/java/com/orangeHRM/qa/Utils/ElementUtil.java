@@ -92,10 +92,15 @@ public class ElementUtil {
 		}
 		return false;
 	}
-	public void getWindowHandlesPrimary() {
+	public void getWindowHandlesPrimary(int WindowHandleNum) {
 		Set<String> handles = driver.getWindowHandles();
 		ArrayList<String> handlesList = new ArrayList<String>(handles);
-		driver.switchTo().window(handlesList.get(1));
+		try {
+		driver.switchTo().window(handlesList.get(WindowHandleNum));
+		}catch(Exception e) {
+			e.printStackTrace();
+			System.out.println("No such window exists");
+		}
 	}
 
 }
