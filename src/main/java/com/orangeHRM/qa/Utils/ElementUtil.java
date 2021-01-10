@@ -2,6 +2,7 @@ package com.orangeHRM.qa.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -91,4 +92,10 @@ public class ElementUtil {
 		}
 		return false;
 	}
+	public void getWindowHandlesPrimary() {
+		Set<String> handles = driver.getWindowHandles();
+		ArrayList<String> handlesList = new ArrayList<String>(handles);
+		driver.switchTo().window(handlesList.get(1));
+	}
+
 }
