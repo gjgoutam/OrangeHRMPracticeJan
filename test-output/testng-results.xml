@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="7" failed="3" skipped="0">
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-07T22:35:54Z" name="BaseTestExecutionEx" finished-at="2021-01-07T22:36:49Z" duration-ms="54630">
+  <suite started-at="2021-01-12T23:19:06Z" name="BaseTestExecutionEx" finished-at="2021-01-12T23:19:58Z" duration-ms="52172">
     <groups>
     </groups>
-    <test started-at="2021-01-07T22:35:54Z" name="Home page test" finished-at="2021-01-07T22:36:08Z" duration-ms="13909">
+    <test started-at="2021-01-12T23:19:06Z" name="Home page test" finished-at="2021-01-12T23:19:27Z" duration-ms="20845">
       <class name="com.orangeHRM.qa.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@821330f]" started-at="2021-01-07T22:35:54Z" name="setUp" finished-at="2021-01-07T22:36:04Z" duration-ms="9653" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@6b09fb41]" started-at="2021-01-12T23:19:06Z" name="setUp" finished-at="2021-01-12T23:19:20Z" duration-ms="13647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beforeClassSetup()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@821330f]" started-at="2021-01-07T22:36:04Z" name="beforeClassSetup" finished-at="2021-01-07T22:36:04Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClassSetup()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@6b09fb41]" started-at="2021-01-12T23:19:20Z" name="beforeClassSetup" finished-at="2021-01-12T23:19:20Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassSetup -->
-        <test-method signature="LoginErrMsgTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@821330f]" started-at="2021-01-07T22:36:04Z" name="LoginErrMsgTest" finished-at="2021-01-07T22:36:04Z" duration-ms="228" status="PASS">
+        <test-method signature="LoginErrMsgTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@6b09fb41]" started-at="2021-01-12T23:19:20Z" name="LoginErrMsgTest" finished-at="2021-01-12T23:19:21Z" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginErrMsgTest -->
-        <test-method signature="footerlinkTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@821330f]" started-at="2021-01-07T22:36:04Z" name="footerlinkTest" finished-at="2021-01-07T22:36:04Z" duration-ms="62" status="PASS">
+        <test-method signature="footerlinkTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@6b09fb41]" started-at="2021-01-12T23:19:21Z" name="footerlinkTest" finished-at="2021-01-12T23:19:21Z" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- footerlinkTest -->
-        <test-method signature="incorrectUsrPwdTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@821330f]" started-at="2021-01-07T22:36:04Z" name="incorrectUsrPwdTest" finished-at="2021-01-07T22:36:06Z" duration-ms="2021" status="PASS">
+        <test-method signature="incorrectUsrPwdTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@6b09fb41]" started-at="2021-01-12T23:19:21Z" name="incorrectUsrPwdTest" finished-at="2021-01-12T23:19:23Z" duration-ms="2752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectUsrPwdTest -->
-        <test-method signature="titleTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@821330f]" started-at="2021-01-07T22:36:06Z" name="titleTest" finished-at="2021-01-07T22:36:06Z" duration-ms="15" status="FAIL">
+        <test-method signature="titleTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@6b09fb41]" started-at="2021-01-12T23:19:23Z" name="titleTest" finished-at="2021-01-12T23:19:23Z" duration-ms="24" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [OrangeHRM3] but found [OrangeHRM]]]>
@@ -67,47 +67,43 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@821330f]" started-at="2021-01-07T22:36:07Z" name="tearDown" finished-at="2021-01-07T22:36:08Z" duration-ms="889" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@6b09fb41]" started-at="2021-01-12T23:19:26Z" name="tearDown" finished-at="2021-01-12T23:19:27Z" duration-ms="1093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangeHRM.qa.tests.LoginPageTest -->
     </test> <!-- Home page test -->
-    <test started-at="2021-01-07T22:35:54Z" name="Login page test" finished-at="2021-01-07T22:36:09Z" duration-ms="15229">
+    <test started-at="2021-01-12T23:19:06Z" name="Login page test" finished-at="2021-01-12T23:19:28Z" duration-ms="21894">
       <class name="com.orangeHRM.qa.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@1807e3f6]" started-at="2021-01-07T22:35:54Z" name="setUp" finished-at="2021-01-07T22:36:04Z" duration-ms="9417" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@6e535154]" started-at="2021-01-12T23:19:06Z" name="setUp" finished-at="2021-01-12T23:19:20Z" duration-ms="13799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="ClassSetUp()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@1807e3f6]" started-at="2021-01-07T22:36:04Z" name="ClassSetUp" finished-at="2021-01-07T22:36:08Z" duration-ms="4593" status="PASS">
+        <test-method is-config="true" signature="ClassSetUp()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@6e535154]" started-at="2021-01-12T23:19:20Z" name="ClassSetUp" finished-at="2021-01-12T23:19:27Z" duration-ms="6918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClassSetUp -->
-        <test-method signature="dasboardPage()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@1807e3f6]" started-at="2021-01-07T22:36:08Z" name="dasboardPage" finished-at="2021-01-07T22:36:09Z" duration-ms="440" status="PASS">
+        <test-method signature="dasboardPage()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@6e535154]" started-at="2021-01-12T23:19:27Z" name="dasboardPage" finished-at="2021-01-12T23:19:27Z" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dasboardPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@1807e3f6]" started-at="2021-01-07T22:36:09Z" name="tearDown" finished-at="2021-01-07T22:36:09Z" duration-ms="761" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@6e535154]" started-at="2021-01-12T23:19:27Z" name="tearDown" finished-at="2021-01-12T23:19:28Z" duration-ms="949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangeHRM.qa.tests.HomePageTest -->
     </test> <!-- Login page test -->
-    <test started-at="2021-01-07T22:36:09Z" name="Jobtitles page test" finished-at="2021-01-07T22:36:49Z" duration-ms="40273">
+    <test started-at="2021-01-12T23:19:28Z" name="Jobtitles page test" finished-at="2021-01-12T23:19:58Z" duration-ms="30083">
       <class name="com.orangeHRM.qa.tests.JobTitlesPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@5276d6ee]" started-at="2021-01-07T22:36:09Z" name="setUp" finished-at="2021-01-07T22:36:16Z" duration-ms="7811" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@69504ae9]" started-at="2021-01-12T23:19:29Z" name="setUp" finished-at="2021-01-12T23:19:36Z" duration-ms="7759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@5276d6ee]" started-at="2021-01-07T22:36:16Z" name="testSetup" finished-at="2021-01-07T22:36:21Z" depends-on-methods="com.orangeHRM.qa.tests.BaseTest.setUp" duration-ms="4945" status="PASS">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@69504ae9]" started-at="2021-01-12T23:19:36Z" name="testSetup" finished-at="2021-01-12T23:19:43Z" depends-on-methods="com.orangeHRM.qa.tests.BaseTest.setUp" duration-ms="6740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method signature="Scrolldown()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@5276d6ee]" started-at="2021-01-07T22:36:21Z" name="Scrolldown" finished-at="2021-01-07T22:36:41Z" duration-ms="20018" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scrolldown -->
-        <test-method signature="addJobTitleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@5276d6ee]" started-at="2021-01-07T22:36:42Z" name="addJobTitleTest" data-provider="getDataForJobTitle" finished-at="2021-01-07T22:36:45Z" duration-ms="2743" status="PASS">
+        <test-method signature="addJobTitleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@69504ae9]" started-at="2021-01-12T23:19:44Z" name="addJobTitleTest" data-provider="getDataForJobTitle" finished-at="2021-01-12T23:19:53Z" duration-ms="8708" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,7 +129,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addJobTitleTest -->
-        <test-method signature="addJobTitleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@5276d6ee]" started-at="2021-01-07T22:36:45Z" name="addJobTitleTest" data-provider="getDataForJobTitle" finished-at="2021-01-07T22:36:46Z" duration-ms="1236" status="FAIL">
+        <test-method signature="addJobTitleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@69504ae9]" started-at="2021-01-12T23:19:53Z" name="addJobTitleTest" data-provider="getDataForJobTitle" finished-at="2021-01-12T23:19:54Z" duration-ms="1194" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -159,21 +155,21 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <a class="btn-floating btn-large waves-effect waves-light" ng-click="jobTitlesCtrl.addJobTitles()">...</a> is not clickable at point (1479, 48). Other element would receive the click: <div class="lean-overlay" id="materialize-lean-overlay-1" style="z-index: 1002; display: block; opacity: 0.5;"></div>
-  (Session info: chrome=87.0.4280.88)
+  (Session info: chrome=87.0.4280.141)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-FF6Q8S9', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+System info: host: 'DESKTOP-FF6Q8S9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SHARMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8a7ed537e6547a0b950777818d1b1f1f]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SHARMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 49285d028e1b6043bf63781c1dd48432]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="btn-floating btn-large waves-effect waves-light" ng-click="jobTitlesCtrl.addJobTitles()">...</a> is not clickable at point (1479, 48). Other element would receive the click: <div class="lean-overlay" id="materialize-lean-overlay-1" style="z-index: 1002; display: block; opacity: 0.5;"></div>
-  (Session info: chrome=87.0.4280.88)
+  (Session info: chrome=87.0.4280.141)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-FF6Q8S9', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+System info: host: 'DESKTOP-FF6Q8S9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SHARMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8a7ed537e6547a0b950777818d1b1f1f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SHARMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 49285d028e1b6043bf63781c1dd48432
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -187,8 +183,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at com.orangeHRM.qa.Utils.ElementUtil.enterClick(ElementUtil.java:35)
-at com.orangeHRM.qa.pages.JobTitlesPage.VerifyAddUser(JobTitlesPage.java:43)
+at com.orangeHRM.qa.Utils.ElementUtil.enterClick(ElementUtil.java:50)
+at com.orangeHRM.qa.pages.JobTitlesPage.AddUser(JobTitlesPage.java:46)
 at com.orangeHRM.qa.tests.JobTitlesPageTest.addJobTitleTest(JobTitlesPageTest.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -216,7 +212,7 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addJobTitleTest -->
-        <test-method signature="addJobTitleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@5276d6ee]" started-at="2021-01-07T22:36:46Z" name="addJobTitleTest" data-provider="getDataForJobTitle" finished-at="2021-01-07T22:36:48Z" duration-ms="1140" status="FAIL">
+        <test-method signature="addJobTitleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@69504ae9]" started-at="2021-01-12T23:19:55Z" name="addJobTitleTest" data-provider="getDataForJobTitle" finished-at="2021-01-12T23:19:56Z" duration-ms="1158" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -242,21 +238,21 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <a class="btn-floating btn-large waves-effect waves-light" ng-click="jobTitlesCtrl.addJobTitles()">...</a> is not clickable at point (1479, 48). Other element would receive the click: <div class="lean-overlay" id="materialize-lean-overlay-1" style="z-index: 1002; display: block; opacity: 0.5;"></div>
-  (Session info: chrome=87.0.4280.88)
+  (Session info: chrome=87.0.4280.141)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-FF6Q8S9', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+System info: host: 'DESKTOP-FF6Q8S9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SHARMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8a7ed537e6547a0b950777818d1b1f1f]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SHARMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 49285d028e1b6043bf63781c1dd48432]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="btn-floating btn-large waves-effect waves-light" ng-click="jobTitlesCtrl.addJobTitles()">...</a> is not clickable at point (1479, 48). Other element would receive the click: <div class="lean-overlay" id="materialize-lean-overlay-1" style="z-index: 1002; display: block; opacity: 0.5;"></div>
-  (Session info: chrome=87.0.4280.88)
+  (Session info: chrome=87.0.4280.141)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-FF6Q8S9', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+System info: host: 'DESKTOP-FF6Q8S9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SHARMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8a7ed537e6547a0b950777818d1b1f1f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\SHARMI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 49285d028e1b6043bf63781c1dd48432
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -270,8 +266,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at com.orangeHRM.qa.Utils.ElementUtil.enterClick(ElementUtil.java:35)
-at com.orangeHRM.qa.pages.JobTitlesPage.VerifyAddUser(JobTitlesPage.java:43)
+at com.orangeHRM.qa.Utils.ElementUtil.enterClick(ElementUtil.java:50)
+at com.orangeHRM.qa.pages.JobTitlesPage.AddUser(JobTitlesPage.java:46)
 at com.orangeHRM.qa.tests.JobTitlesPageTest.addJobTitleTest(JobTitlesPageTest.java:39)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -299,11 +295,11 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addJobTitleTest -->
-        <test-method signature="jobPageTitleTest()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@5276d6ee]" started-at="2021-01-07T22:36:48Z" name="jobPageTitleTest" finished-at="2021-01-07T22:36:48Z" duration-ms="121" status="PASS">
+        <test-method signature="jobPageTitleTest()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@69504ae9]" started-at="2021-01-12T23:19:57Z" name="jobPageTitleTest" finished-at="2021-01-12T23:19:57Z" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jobPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@5276d6ee]" started-at="2021-01-07T22:36:48Z" name="tearDown" finished-at="2021-01-07T22:36:49Z" duration-ms="705" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@69504ae9]" started-at="2021-01-12T23:19:57Z" name="tearDown" finished-at="2021-01-12T23:19:58Z" duration-ms="1407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
