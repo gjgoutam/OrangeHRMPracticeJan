@@ -1,23 +1,22 @@
 package com.orangeHRM.qa.Listeners;
 
 	import java.io.IOException;
-	import java.nio.file.Files;
-	import java.nio.file.Path;
-	import java.nio.file.Paths;
-	import java.util.Arrays;
-	import java.util.Calendar;
-	import java.util.Date;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Date;
 
-	import org.testng.ITestContext;
-	import org.testng.ITestListener;
-	import org.testng.ITestResult;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
 
-	import com.aventstack.extentreports.ExtentReports;
-	import com.aventstack.extentreports.ExtentTest;
-	import com.aventstack.extentreports.MediaEntityBuilder;
-	import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-	import com.aventstack.extentreports.reporter.configuration.ChartLocation;
-	import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.orangeHRM.qa.baseClass.BasePage;
 	
 
@@ -41,10 +40,9 @@ import com.orangeHRM.qa.baseClass.BasePage;
 					e.printStackTrace();
 				}
 			}
-			ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME);
+			ExtentSparkReporter htmlReporter = new ExtentSparkReporter(OUTPUT_FOLDER + FILE_NAME);
 			htmlReporter.config().setDocumentTitle("Automation Test Results");
 			htmlReporter.config().setReportName("Automation Test Results");
-			htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 			htmlReporter.config().setTheme(Theme.STANDARD);
 
 			extent = new ExtentReports();
@@ -96,7 +94,7 @@ import com.orangeHRM.qa.baseClass.BasePage;
 			try {
 				test.get().fail(result.getThrowable(),
 						MediaEntityBuilder.createScreenCaptureFromPath(getScreenshot()).build());
-			} catch (IOException e) {
+			} catch (Exception e) {
 				System.err
 						.println("Exception thrown while updating test fail status " + Arrays.toString(e.getStackTrace()));
 			}
@@ -108,7 +106,7 @@ import com.orangeHRM.qa.baseClass.BasePage;
 			try {
 				test.get().skip(result.getThrowable(),
 						MediaEntityBuilder.createScreenCaptureFromPath(getScreenshot()).build());
-			} catch (IOException e) {
+			} catch (Exception e) {
 				System.err
 						.println("Exception thrown while updating test skip status " + Arrays.toString(e.getStackTrace()));
 			}
