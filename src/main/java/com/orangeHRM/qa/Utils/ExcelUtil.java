@@ -11,7 +11,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelUtil {
 
-	public static String TEST_EXCEL_DATA = "C:\\Users\\Sharmita Bose\\eclipse-workspace\\OrangeHRMPractice\\src\\main\\java\\com\\orangeHRM\\qa\\testdata\\OrangeHRM_TestData.xlsx";
+	public static String TEST_EXCEL_DATA = "./src/main/java/com/orangeHRM/qa/testdata/OrangeHRM_TestData.xlsx";
 	public static Workbook book;
 	public static Sheet workSheet;
 
