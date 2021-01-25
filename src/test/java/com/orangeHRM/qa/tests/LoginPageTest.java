@@ -13,7 +13,12 @@ public class LoginPageTest extends BaseTest {
 
 	@BeforeClass
 	public void beforeClassSetup(){
+		try {
 		lp = new LoginPage(driver);
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		System.out.println("Before Class");
 	}
 	
 
@@ -37,6 +42,6 @@ public class LoginPageTest extends BaseTest {
 	
 	@Test(enabled = true)
 	public void incorrectUsrPwdTest() {
-		Assert.assertEquals(lp.incorrectUsrNameCorrPwd("admin"),"https://goutamj-trials6518.orangehrmlive.com/securityAuthentication/retryLogin");
+		Assert.assertEquals(lp.incorrectUsrNameCorrPwd("admin"),"https://goutamjo-trials6518.orangehrmlive.com/securityAuthentication/retryLogin");
 	}
 }
