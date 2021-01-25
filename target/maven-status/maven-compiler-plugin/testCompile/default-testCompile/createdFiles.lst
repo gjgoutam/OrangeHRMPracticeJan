@@ -1,0 +1,4 @@
+com\orangeHRM\qa\tests\LoginPageTest.class
+com\orangeHRM\qa\tests\BaseTest.class
+com\orangeHRM\qa\tests\HomePageTest.class
+com\orangeHRM\qa\tests\JobTitlesPageTest.class

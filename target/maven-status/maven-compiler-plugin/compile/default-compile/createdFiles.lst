@@ -1,0 +1,8 @@
+com\orangeHRM\qa\baseClass\BasePage.class
+com\orangeHRM\qa\Utils\ElementUtil.class
+com\orangeHRM\qa\pages\HomePage.class
+com\orangeHRM\qa\Utils\JsUtil.class
+com\orangeHRM\qa\pages\JobTitlesPage.class
+com\orangeHRM\qa\Utils\Constants.class
+com\orangeHRM\qa\Utils\ExcelUtil.class
+com\orangeHRM\qa\pages\LoginPage.class

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.orangeHRM.qa.tests.HomePageTest">
+        <methods>
+          <include name="dasboardPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ClassSetUp"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.tests.HomePageTest -->
+      <class name="com.orangeHRM.qa.tests.JobTitlesPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="jobPageTitleTest"/>
+          <include name="testSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.tests.JobTitlesPageTest -->
+      <class name="com.orangeHRM.qa.tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="footerlinkTest"/>
+          <include name="incorrectUsrPwdTest"/>
+          <include name="titleTest"/>
+          <include name="tearDown"/>
+          <include name="beforeClassSetup"/>
+          <include name="LoginErrMsgTest"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

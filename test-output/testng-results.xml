@@ -1,29 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-13T00:04:31Z" name="Default suite" finished-at="2021-01-13T00:04:45Z" duration-ms="14133">
+  <suite started-at="2021-01-15T02:21:41Z" name="BaseTestExecutionEx" finished-at="2021-01-15T02:22:23Z" duration-ms="42615">
     <groups>
     </groups>
-    <test started-at="2021-01-13T00:04:31Z" name="Default test" finished-at="2021-01-13T00:04:45Z" duration-ms="14133">
-      <class name="com.orangeHRM.qa.tests.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@4470f8a6]" started-at="2021-01-13T00:04:31Z" name="setUp" finished-at="2021-01-13T00:04:40Z" duration-ms="9072" status="PASS">
+    <test started-at="2021-01-15T02:21:41Z" name="Home page test" finished-at="2021-01-15T02:21:52Z" duration-ms="11799">
+      <class name="com.orangeHRM.qa.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@5a9f4771]" started-at="2021-01-15T02:21:41Z" name="setUp" finished-at="2021-01-15T02:21:49Z" duration-ms="8030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="ClassSetUp()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@4470f8a6]" started-at="2021-01-13T00:04:40Z" name="ClassSetUp" finished-at="2021-01-13T00:04:44Z" duration-ms="4147" status="PASS">
+        <test-method is-config="true" signature="beforeClassSetup()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@5a9f4771]" started-at="2021-01-15T02:21:49Z" name="beforeClassSetup" finished-at="2021-01-15T02:21:49Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassSetup -->
+        <test-method signature="LoginErrMsgTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@5a9f4771]" started-at="2021-01-15T02:21:49Z" name="LoginErrMsgTest" finished-at="2021-01-15T02:21:49Z" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrMsgTest -->
+        <test-method signature="footerlinkTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@5a9f4771]" started-at="2021-01-15T02:21:49Z" name="footerlinkTest" finished-at="2021-01-15T02:21:49Z" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerlinkTest -->
+        <test-method signature="incorrectUsrPwdTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@5a9f4771]" started-at="2021-01-15T02:21:49Z" name="incorrectUsrPwdTest" finished-at="2021-01-15T02:21:51Z" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUsrPwdTest -->
+        <test-method signature="titleTest()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@5a9f4771]" started-at="2021-01-15T02:21:51Z" name="titleTest" finished-at="2021-01-15T02:21:51Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.tests.LoginPageTest@5a9f4771]" started-at="2021-01-15T02:21:51Z" name="tearDown" finished-at="2021-01-15T02:21:52Z" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.qa.tests.LoginPageTest -->
+    </test> <!-- Home page test -->
+    <test started-at="2021-01-15T02:21:41Z" name="Login page test" finished-at="2021-01-15T02:21:54Z" duration-ms="13784">
+      <class name="com.orangeHRM.qa.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@c7045b9]" started-at="2021-01-15T02:21:41Z" name="setUp" finished-at="2021-01-15T02:21:49Z" duration-ms="8162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="ClassSetUp()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@c7045b9]" started-at="2021-01-15T02:21:49Z" name="ClassSetUp" finished-at="2021-01-15T02:21:53Z" duration-ms="4509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClassSetUp -->
-        <test-method signature="dasboardPage()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@4470f8a6]" started-at="2021-01-13T00:04:44Z" name="dasboardPage" finished-at="2021-01-13T00:04:44Z" duration-ms="173" status="PASS">
+        <test-method signature="dasboardPage()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@c7045b9]" started-at="2021-01-15T02:21:53Z" name="dasboardPage" finished-at="2021-01-15T02:21:54Z" duration-ms="418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dasboardPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@4470f8a6]" started-at="2021-01-13T00:04:44Z" name="tearDown" finished-at="2021-01-13T00:04:45Z" duration-ms="716" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.tests.HomePageTest@c7045b9]" started-at="2021-01-15T02:21:54Z" name="tearDown" finished-at="2021-01-15T02:21:54Z" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangeHRM.qa.tests.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login page test -->
+    <test started-at="2021-01-15T02:21:54Z" name="Jobtitles page test" finished-at="2021-01-15T02:22:23Z" duration-ms="29622">
+      <class name="com.orangeHRM.qa.tests.JobTitlesPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@7fcf2fc1]" started-at="2021-01-15T02:21:54Z" name="setUp" finished-at="2021-01-15T02:22:01Z" duration-ms="7034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@7fcf2fc1]" started-at="2021-01-15T02:22:01Z" name="testSetup" finished-at="2021-01-15T02:22:06Z" depends-on-methods="com.orangeHRM.qa.tests.BaseTest.setUp" duration-ms="5221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="addJobTitleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@7fcf2fc1]" started-at="2021-01-15T02:22:07Z" name="addJobTitleTest" data-provider="getDataForJobTitle" finished-at="2021-01-15T02:22:16Z" duration-ms="9539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\Users\Sharmita Bose\Desktop\Interview Prep\Interview.txt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABC2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addJobTitleTest -->
+        <test-method signature="addJobTitleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@7fcf2fc1]" started-at="2021-01-15T02:22:16Z" name="addJobTitleTest" data-provider="getDataForJobTitle" finished-at="2021-01-15T02:22:20Z" duration-ms="3202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\Users\Sharmita Bose\Desktop\Interview Prep\Interview.txt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABC3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addJobTitleTest -->
+        <test-method signature="addJobTitleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@7fcf2fc1]" started-at="2021-01-15T02:22:20Z" name="addJobTitleTest" data-provider="getDataForJobTitle" finished-at="2021-01-15T02:22:22Z" duration-ms="2973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABC4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C:\Users\Sharmita Bose\Desktop\Interview Prep\Interview.txt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ABC4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addJobTitleTest -->
+        <test-method signature="jobPageTitleTest()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@7fcf2fc1]" started-at="2021-01-15T02:22:22Z" name="jobPageTitleTest" finished-at="2021-01-15T02:22:23Z" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangeHRM.qa.tests.JobTitlesPageTest@7fcf2fc1]" started-at="2021-01-15T02:22:23Z" name="tearDown" finished-at="2021-01-15T02:22:23Z" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.qa.tests.JobTitlesPageTest -->
+    </test> <!-- Jobtitles page test -->
+  </suite> <!-- BaseTestExecutionEx -->
 </testng-results>

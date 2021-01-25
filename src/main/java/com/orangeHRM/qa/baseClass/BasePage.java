@@ -51,7 +51,7 @@ public class BasePage {
 
 		try {
 			FileInputStream ip = new FileInputStream(
-					"C:\\Users\\Sharmita Bose\\eclipse-workspace\\OrangeHRMPractice\\src\\main\\java\\com\\orangeHRM\\qa\\config\\config.properties");
+					"./src/main/java/com/orangeHRM/qa/config/config.properties");
 			prop.load(ip);
 		} catch (Exception e) {
 			System.out.println(e + "Was the exception for the input file not found");
