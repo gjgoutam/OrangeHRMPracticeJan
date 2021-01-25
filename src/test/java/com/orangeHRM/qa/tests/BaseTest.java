@@ -16,10 +16,17 @@ public class BaseTest {
 
 	@BeforeTest
 	public void setUp() {
+
+		try {
 		bt = new BasePage();
 		prop = bt.initProp();
 		driver = bt.initDriver(prop);
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
 		bt.getURL(prop);
+		
+		System.out.println("Base Test setup");
 	}
 	
 	@AfterTest
