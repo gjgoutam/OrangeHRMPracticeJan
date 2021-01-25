@@ -13,6 +13,7 @@
       </class> <!-- com.orangeHRM.qa.tests.HomePageTest -->
       <class name="com.orangeHRM.qa.tests.JobTitlesPageTest">
         <methods>
+          <include name="addJobTitleTest"/>
           <include name="setUp"/>
           <include name="jobPageTitleTest"/>
           <include name="testSetup"/>

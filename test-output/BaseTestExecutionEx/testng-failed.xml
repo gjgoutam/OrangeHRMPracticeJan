@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" parallel="tests" name="Failed suite [BaseTestExecutionEx]" guice-stage="DEVELOPMENT" verbose="10">
+  <test thread-count="2" parallel="tests" name="Login page test(failed)" verbose="10">
+    <classes>
+      <class name="com.orangeHRM.qa.tests.HomePageTest">
+        <methods>
+          <include name="dasboardPage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="ClassSetUp"/>
+        </methods>
+      </class> <!-- com.orangeHRM.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Login page test(failed) -->
   <test thread-count="2" parallel="tests" name="Jobtitles page test(failed)" verbose="10">
     <classes>
       <class name="com.orangeHRM.qa.tests.JobTitlesPageTest">
         <methods>
           <include name="addJobTitleTest"/>
           <include name="setUp"/>
+          <include name="jobPageTitleTest"/>
           <include name="testSetup"/>
           <include name="tearDown"/>
         </methods>

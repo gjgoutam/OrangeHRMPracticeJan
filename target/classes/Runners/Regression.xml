@@ -2,9 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="BaseTestExecutionEx" verbose="10" thread-count='2' parallel='tests'>
 
-	<listeners>
-		<listener class-name="Listeners.ExtentreportListener" />
-	</listeners>
+
 	<test name="Login page test">
 		<classes>
 			<class name="com.orangeHRM.qa.tests.HomePageTest" />
